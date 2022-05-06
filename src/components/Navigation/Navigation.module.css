@@ -1,0 +1,20 @@
+.navigation {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.activeLink {
+  text-decoration: none;
+  color: #0042f8;
+}
